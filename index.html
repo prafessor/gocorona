@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Sniglet&display=swap');
+    body{
+      background: hsl(212, 45%, 89%);
+      font-family: "Rubik";
+      font-size: 15px;
+    }
+    .main {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -248.5px 0 0 -160px;
+      border-radius: 20px;
+      width: 320px;
+      height: 497px;
+      background: hsl(0, 0%, 100%);
+      padding: 16px;
+      box-sizing: border-box;
+    }
+    ._container{
+      padding: 0px 5px;
+    }
+    img{
+      border-radius: 15px;
+      width: 100%;
+    }
+    h1{
+      font-weight: 700;
+      font-size: 22px;
+      text-align: center;
+      color: hsl(218, 44%, 22%);
+    }
+    p{
+      text-align: center;
+      font-weight: 400;
+      color: hsl(220, 15%, 55%);
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <img src="images/image-qr-code.png" alt="">
+    <div class="text"></div>
+      <h1 class="_container">Improve your front-end skills by building projects  </h1>
+      <p class="_container">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+</body>
+</html>
